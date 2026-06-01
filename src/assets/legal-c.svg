@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'>
+  <rect width='600' height='400' rx='12' fill='#fff9f6' stroke='#ffe4c9' stroke-width='2'/>
+  <rect x='24' y='24' width='200' height='100' rx='8' fill='#f6d8c0' />
+  <text x='24' y='360' fill='#c6863d' font-family='Inter' font-size='18'>Foto Surat Legalitas</text>
+</svg>

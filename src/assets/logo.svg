@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60' width='60' height='60'>
+  <!-- Background Circle -->
+  <circle cx='30' cy='30' r='28' fill='#FDB915' opacity='0.12' stroke='#B1531E' stroke-width='1'/>
+  
+  <!-- Sugar Cane Stalks -->
+  <g>
+    <!-- Left stalk -->
+    <rect x='18' y='12' width='3.5' height='32' rx='1.75' fill='#8B4513'/>
+    <!-- Center stalk (taller) -->
+    <rect x='28.25' y='8' width='3.5' height='36' rx='1.75' fill='#B1531E'/>
+    <!-- Right stalk -->
+    <rect x='38.5' y='12' width='3.5' height='32' rx='1.75' fill='#8B4513'/>
+  </g>
+  
+  <!-- Sugar Crystals/Leaves at top -->
+  <!-- Left cluster -->
+  <circle cx='16' cy='7' r='2.5' fill='#FDB915'/>
+  <circle cx='20' cy='5.5' r='2' fill='#FDB915'/>
+  <circle cx='18' cy='10' r='1.8' fill='#FDB915' opacity='0.8'/>
+  
+  <!-- Center cluster (bigger) -->
+  <circle cx='30' cy='2' r='3' fill='#FDB915'/>
+  <circle cx='26' cy='6' r='2.2' fill='#FDB915'/>
+  <circle cx='34' cy='6' r='2.2' fill='#FDB915'/>
+  <circle cx='30' cy='10' r='2' fill='#FDB915' opacity='0.8'/>
+  
+  <!-- Right cluster -->
+  <circle cx='44' cy='7' r='2.5' fill='#FDB915'/>
+  <circle cx='40' cy='5.5' r='2' fill='#FDB915'/>
+  <circle cx='42' cy='10' r='1.8' fill='#FDB915' opacity='0.8'/>
+  
+  <!-- Decorative leaves -->
+  <path d='M 22 18 Q 20 20 18.5 22' stroke='#B1531E' stroke-width='1.5' fill='none' stroke-linecap='round'/>
+  <path d='M 38 18 Q 40 20 41.5 22' stroke='#B1531E' stroke-width='1.5' fill='none' stroke-linecap='round'/>
+  <path d='M 26 14 Q 24 16 22.5 18' stroke='#B1531E' stroke-width='1.2' fill='none' stroke-linecap='round' opacity='0.6'/>
+  <path d='M 34 14 Q 36 16 37.5 18' stroke='#B1531E' stroke-width='1.2' fill='none' stroke-linecap='round' opacity='0.6'/>
+</svg>

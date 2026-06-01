@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'>
+  <rect width='800' height='600' rx='20' fill='#f3e6da'/>
+  <circle cx='400' cy='220' r='140' fill='#b1531e'/>
+  <text x='50' y='560' font-size='28' fill='#8a5a3e' font-family='Inter, Arial'>Product A</text>
+</svg>
