@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import aboutImg from '../assets/image.png';
 
-export default function About(){
+export default function About() {
   return (
     <section id="about" className="about">
       <div className="container">
         <div className="about-grid">
           <div className="about-image">
-            <img src="/src/assets/image.png" alt="Proses produksi gula merah premium Pabrik Gula Merah Elang" />
+            <img src={aboutImg} alt="Proses produksi gula merah premium Pabrik Gula Merah Elang" />
           </div>
           <div className="about-content">
             <span className="about-label">TENTANG KAMI</span>
@@ -16,5 +17,5 @@ export default function About(){
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react'
 
+// Import gambar dari folder src/assets/galeri/
+import kemasanImg from '../assets/galeri/Kemasan.png'
+import pengeringanImg from '../assets/galeri/pengeringan.png'
+import pabrikImg from '../assets/galeri/pabrik.png'
+
 export const blogPosts = [
   {
     id: 1,
@@ -10,7 +15,7 @@ export const blogPosts = [
     category: 'Kesehatan',
     author: 'Pabrik Gula Merah Elang',
     excerpt: 'Pelajari manfaat luar biasa dari gula merah asli untuk kesehatan tubuh dan nilai nutrisi tinggi dibanding gula putih biasa.',
-    image: '/src/assets/galeri/Kemasan.png',
+    image: kemasanImg,
     imageAlt: 'Manfaat gula merah untuk kesehatan - Pabrik Gula Merah Elang',
     content: `Gula merah memiliki kandungan mineral yang lebih lengkap dibanding gula putih, termasuk kalsium, kalium, dan zat besi. Kandungan nutrisi ini menjadikan gula merah pilihan yang lebih sehat untuk penggunaan sehari-hari.
 
@@ -37,7 +42,7 @@ Kami menjamin kualitas terbaik dengan proses produksi yang higienis dan mengguna
     category: 'Produksi',
     author: 'Pabrik Gula Merah Elang',
     excerpt: 'Ketahui bagaimana Pabrik Gula Merah Elang memproduksi gula merah berkualitas premium dengan standar internasional dan proses modern.',
-    image: '/src/assets/galeri/pengeringan.png',
+    image: pengeringanImg,
     imageAlt: 'Proses produksi gula merah premium - standar internasional',
     content: `Kami menggunakan teknologi terkini dalam setiap tahap produksi, dari pemilihan bahan baku hingga packaging, untuk memastikan kualitas terbaik.
 
@@ -75,7 +80,7 @@ Produk kami telah mendapat sertifikasi HALAL, ISO 22000, dan BPOM untuk menjamin
     category: 'Tips Bisnis',
     author: 'Pabrik Gula Merah Elang',
     excerpt: 'Panduan lengkap dalam memilih supplier gula merah terpercaya dan berkualitas untuk kebutuhan bisnis retail, wholesale, dan industri.',
-    image: '/src/assets/galeri/pabrik.png',
+    image: pabrikImg,
     imageAlt: 'Tips memilih supplier gula merah berkualitas - Pabrik Gula Merah Elang',
     content: `Saat memilih supplier gula merah, ada beberapa faktor penting yang harus dipertimbangkan untuk memastikan kualitas produk dan keberhasilan bisnis Anda.
 

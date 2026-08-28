@@ -1,46 +1,54 @@
 import React, { useState } from 'react';
 
+// Tambahkan ../ agar keluar dari folder components
+import prosesImg from '../assets/galeri/Proses.png';
+import bahanImg from '../assets/galeri/bahan.png';
+import pabrikImg from '../assets/galeri/pabrik.png';
+import pengeringanImg from '../assets/galeri/pengeringan.png';
+import kemasanImg from '../assets/galeri/Kemasan.png';
+import kualitasImg from '../assets/galeri/kualitas.png';
+
 const galleryItems = [
   {
     id: 1,
     title: 'Proses Produksi Gula Merah',
     category: 'Produksi',
-    image: '/src/assets/galeri/Proses.png',
+    image: prosesImg,
     imageAlt: 'Proses pembuatan gula merah tradisional'
   },
   {
     id: 2,
     title: 'Bahan Baku Nira Segar',
     category: 'Bahan Baku',
-    image: '/src/assets/galeri/bahan.png',
+    image: bahanImg,
     imageAlt: 'Nira segar dari pohon kelapa'
   },
   {
     id: 3,
     title: 'Pabrik Gula Merah Elang',
     category: 'Fasilitas',
-    image: '/src/assets/galeri/pabrik.png',
+    image: pabrikImg,
     imageAlt: 'Fasilitas produksi modern Elang'
   },
   {
     id: 4,
     title: 'Proses Pengeringan',
     category: 'Produksi',
-    image: '/src/assets/galeri/pengeringan.png',
+    image: pengeringanImg,
     imageAlt: 'Proses pengeringan gula merah'
   },
   {
     id: 5,
     title: 'Kemasan Premium',
     category: 'Produk',
-    image: '/src/assets/galeri/Kemasan.png',
+    image: kemasanImg,
     imageAlt: 'Kemasan gula merah berkualitas premium'
   },
   {
     id: 6,
     title: 'Kontrol Kualitas',
     category: 'Fasilitas',
-    image: '/src/assets/galeri/kualitas.png',
+    image: kualitasImg,
     imageAlt: 'Proses kontrol kualitas produk'
   }
 ];
