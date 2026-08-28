@@ -5,42 +5,42 @@ const galleryItems = [
     id: 1,
     title: 'Proses Produksi Gula Merah',
     category: 'Produksi',
-    image: 'https://picsum.photos/400/300?random=1',
+    image: '/src/assets/galeri/Proses.png',
     imageAlt: 'Proses pembuatan gula merah tradisional'
   },
   {
     id: 2,
     title: 'Bahan Baku Nira Segar',
     category: 'Bahan Baku',
-    image: 'https://picsum.photos/400/300?random=2',
+    image: '/src/assets/galeri/bahan.png',
     imageAlt: 'Nira segar dari pohon kelapa'
   },
   {
     id: 3,
     title: 'Pabrik Gula Merah Elang',
     category: 'Fasilitas',
-    image: 'https://picsum.photos/400/300?random=3',
+    image: '/src/assets/galeri/pabrik.png',
     imageAlt: 'Fasilitas produksi modern Elang'
   },
   {
     id: 4,
     title: 'Proses Pengeringan',
     category: 'Produksi',
-    image: 'https://picsum.photos/400/300?random=4',
+    image: '/src/assets/galeri/pengeringan.png',
     imageAlt: 'Proses pengeringan gula merah'
   },
   {
     id: 5,
     title: 'Kemasan Premium',
     category: 'Produk',
-    image: 'https://picsum.photos/400/300?random=5',
+    image: '/src/assets/galeri/Kemasan.png',
     imageAlt: 'Kemasan gula merah berkualitas premium'
   },
   {
     id: 6,
     title: 'Kontrol Kualitas',
     category: 'Fasilitas',
-    image: 'https://picsum.photos/400/300?random=6',
+    image: '/src/assets/galeri/kualitas.png',
     imageAlt: 'Proses kontrol kualitas produk'
   }
 ];

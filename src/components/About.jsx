@@ -6,7 +6,7 @@ export default function About(){
       <div className="container">
         <div className="about-grid">
           <div className="about-image">
-            <img src="https://placehold.co/600x400" alt="Proses produksi gula merah premium Pabrik Gula Merah Elang" />
+            <img src="/src/assets/image.png" alt="Proses produksi gula merah premium Pabrik Gula Merah Elang" />
           </div>
           <div className="about-content">
             <span className="about-label">TENTANG KAMI</span>
